@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <h1>956 Custom Stickers</h1>
+    <body>
+        <div class="container">
+            <form id="my-form" action="https://formsubmit.co/omarlopez0530@outlook.com" method="POST" />
+                <h2>Input info for Custom sticker</h2>
+                <input type="text" id="name" required name="name"
+                    placeholder="Full Name" />
+                <input type="number" id="numbers" name="amount"
+                    placeholder="Amount of stickers">
+                <input type="text" id="contact" name="contact" 
+                placeholder="Form of Contact ex. email, snapchat, instagram.">
+                <input type="file" id="file-sticker">
+                <h3>Sizes</h3>
+                <p>*The largest stickers that will be made will be 5' x 5'. </br>
+                    Please choose a size.</p>
+                <div class="sizes">
+                    <input type="radio" id="size1" value="two-inches" name="radio">
+                    <label for="size1">2x2 in.</label>
+
+                    <input type="radio" id="size2" value="three-inches" name="radio">
+                    <label for="size2">3x3 in.</label>
+
+                    <input type="radio" id="size3" value="four-inches" name="radio">
+                    <label for="size3">4x4 in.</label>
+
+                    <input type="radio" id="size4" value="five-inches" name="radio">
+                    <label for="size4">5x5 in.</label>
+                </div>
+                <textarea rows="4" cols="10" placeholder="If you want other size, dont click buttons above and explain here.
+If you choose a size from above, please input 'none' in this field."></textarea>
+                <button type="submit">Submit </button>
+            </form>
+        </div>
+        <input type="hidden" name="_next" value="https://yourdomain.co/thanks.html">
+    </body>
+</html>
